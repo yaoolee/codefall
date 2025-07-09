@@ -1,0 +1,70 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --bug-color: #ff3333;
+  --input-bg: #f0f0f0;
+}
+
+body.dark {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --bug-color: #ff6b6b;
+  --input-bg: #1e1e1e;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+
+#game-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+#fall-area {
+  position: relative;
+  height: 300px;
+  border: 2px dashed var(--text-color);
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.bug {
+  position: absolute;
+  top: 0;
+  font-weight: bold;
+  color: var(--bug-color);
+  animation: fall 5s linear forwards;
+}
+
+@keyframes fall {
+  to {
+    top: 100%;
+  }
+}
+
+#input-box {
+  padding: 0.5rem;
+  width: 300px;
+  background: var(--input-bg);
+  color: var(--text-color);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#score {
+  margin-top: 1rem;
+  font-weight: bold;
+}
