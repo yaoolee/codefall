@@ -3,8 +3,12 @@
 Codefall is a beginner-friendly 2D web game built using **HTML, CSS, and JavaScript**. Players must fix falling code bugs by typing the correct terms before they hit the bottom!
 
 This project is designed as a fun way to improve typing skills while engaging with common JavaScript error terms in a gamified environment.
+![codefall screenshot](/screenshot/screenshot.png)
 
 ---
+
+## Live
+[Live](https://yaoolee.github.io/codefall/)
 
 ## 🎮 Gameplay
 
