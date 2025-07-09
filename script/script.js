@@ -1,15 +1,16 @@
 const bugList = [
   "undefined", "null", "NaN", "TypeError", "SyntaxError",
-  "console.log()", "=", "let", "const", "var", "()", "{}", "[]"
+  "console.log()", "=", "let", "const", "var", "()", "{}", "[]", "string", "true", "false", "boolean"
 ];
 
 const fallArea = document.getElementById("fall-area");
 const inputBox = document.getElementById("input-box");
-const scoreDisplay = document.getElementById("score");
+const scoreDisplay = document.getElementById("final-score");
 const themeToggle = document.getElementById("theme-toggle");
 const restartBtn = document.getElementById("restart-btn");
 const gameOverScreen = document.getElementById("game-over-screen");
 const finalScore = document.getElementById("final-score");
+
 
 let score = 0;
 let bugInterval;
@@ -70,6 +71,7 @@ function spawnBug() {
       fallArea.removeChild(bug);
     }
   }, 5000);
+  console.log("spawning bug");
 }
 
 // Game Over function

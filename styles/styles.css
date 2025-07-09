@@ -46,7 +46,8 @@ header {
   top: 0;
   font-weight: bold;
   color: var(--bug-color);
-  animation: fall 5s linear forwards;
+  font-size: 2rem;
+  animation: fall 14s linear forwards;
 }
 
 @keyframes fall {
