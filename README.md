@@ -1,4 +1,4 @@
-# 💻 codefall – A Typing Debugging Game via Vibe Code
+# codefall – A Typing Debugging Game via Vibe Code
 
 Codefall is a beginner-friendly 2D web game built using **HTML, CSS, and JavaScript**. Players must fix falling code bugs by typing the correct terms before they hit the bottom!
 
