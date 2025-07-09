@@ -68,3 +68,30 @@ header {
   margin-top: 1rem;
   font-weight: bold;
 }
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+@media (max-width: 600px) {
+  #input-box {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+
+  #fall-area {
+    height: 250px;
+  }
+
+  .bug {
+    font-size: 1.1rem;
+  }
+
+  header, #game-container {
+    padding: 1rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}
